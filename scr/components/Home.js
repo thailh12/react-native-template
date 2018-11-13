@@ -5,6 +5,9 @@ import { CounterContainer } from '../containers/CounterContainer';
 import { HomeContainer } from '../containers/HomeContainer';
 import { Subscribe } from 'unstated';
 
+/**
+ * Build up screen
+ */
 class HomeView extends React.Component {
   render() {
     return (
@@ -17,6 +20,9 @@ class HomeView extends React.Component {
   }
 }
 
+/**
+ * Subscribe to container to get data
+ */
 export class Home extends React.Component {
   render() {
     return (
