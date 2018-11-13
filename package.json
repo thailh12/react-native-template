@@ -10,6 +10,7 @@
     "react": "16.6.0-alpha.8af6728",
     "react-native": "0.57.4",
     "react-navigation": "^2.18.2",
+    "styled-components": "^4.1.1",
     "unstated": "^2.1.1"
   },
   "devDependencies": {
