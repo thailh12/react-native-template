@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 import { CounterContainer } from '../containers/CounterContainer';
-
+import { Card } from '../elements/Card';
 import { HomeContainer } from '../containers/HomeContainer';
 import { Subscribe } from 'unstated';
 
@@ -15,6 +15,7 @@ class HomeView extends React.Component {
         <Text>{this.props.data.state.name}</Text>
         <Text>Count in counter</Text>
         <Text>{this.props.count.state.count}</Text>
+        <Card name={this.props.data.state.name} />
       </View>
     );
   }
