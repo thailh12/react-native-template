@@ -9,7 +9,7 @@
 import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 import { Provider } from 'unstated';
-import { Nav } from './scr/navigation/index';
+import { Nav } from './src/navigation/index';
 
 export default class App extends Component {
   render() {

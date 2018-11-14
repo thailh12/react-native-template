@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import { CounterContainer } from '../containers/CounterContainer';
+import CounterContainer from '../containers/CounterContainer';
 import { Card } from '../elements/Card';
-import { HomeContainer } from '../containers/HomeContainer';
+import HomeContainer from '../containers/HomeContainer';
 import { Subscribe } from 'unstated';
 
 /**

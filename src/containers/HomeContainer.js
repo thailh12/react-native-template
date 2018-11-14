@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'unstated';
 
-class HomeContainer extends Container {
+export default class HomeContainer extends Container {
   // init state with default value
   state = { name: 'Ha Thai Lam' };
 
@@ -12,5 +12,3 @@ class HomeContainer extends Container {
     this.setState({ name });
   };
 }
-
-export { HomeContainer };

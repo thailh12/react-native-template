@@ -1,6 +1,6 @@
 import { Container } from 'unstated';
 
-export class CounterContainer extends Container {
+export default class CounterContainer extends Container {
   // init state with default value
   state = { count: 0 };
 
